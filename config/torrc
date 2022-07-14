@@ -69,12 +69,15 @@
 ## HiddenServicePort x y:z says to redirect requests on port x to the
 ## address y:z.
 
-HiddenServiceDir /root/tor/hidden_service/
+#Hidden Service nginx
+HiddenServiceDir /var/lib/tor/hidden_nginx/
 HiddenServicePort 80 127.0.0.1:80
 
-#HiddenServiceDir @LOCALSTATEDIR@/lib/tor/other_hidden_service/
+#Hidden Service ssh
+HiddenServiceDir /var/lib/tor/hidden_ssh/
+HiddenServicePort 4242 127.0.0.1:4242
+
 #HiddenServicePort 80 127.0.0.1:80
-#HiddenServicePort 22 127.0.0.1:22
 
 ################ This section is just for relays #####################
 #
