@@ -66,7 +66,7 @@ Docker container running the following services:
 - tor service (Client).
 
 ---
-Proyect in progress.
+Finished proyect.
 
 ![lgomes-o's 42 ft_onion Score](https://badge42.vercel.app/api/v2/cl4osmqtg006109jvtxcd7k3u/project/2661741)
 
