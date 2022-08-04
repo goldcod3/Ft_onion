@@ -49,21 +49,7 @@ Where:
 - sshusr: default username enabled for the ssh connection. [password: onion]
 - url.onion: url generated in the srv/url/hiddenssh/hostname file for the ssh connection. [replace url.onion with the correct url].
 
-Overview:
----
-Server:
-Docker container running the following services:
-
-- nginx web server [port 80:80].
-- openssh-server service (Server) [port 4242:4242].
-- tor hidden service.
-
-Client:
----
-Docker container running the following services:
-
-- ssh service (Client).
-- tor service (Client).
+For more information about the project click [here](https://goldcod3.github.io/2022-07-14-Proyect-ft-onion/)
 
 ---
 Finished proyect.
