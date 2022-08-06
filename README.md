@@ -49,7 +49,7 @@ Where:
 - sshusr: default username enabled for the ssh connection. [password: onion]
 - url.onion: url generated in the srv/url/hiddenssh/hostname file for the ssh connection. [replace url.onion with the correct url].
 
-For more information about the project click [here](https://goldcod3.github.io/proyect/proyect-ft-onion/)
+For more information about the project click [here](https://goldcod3.github.io/project/proyect-ft-onion)
 
 ---
 Finished proyect.
